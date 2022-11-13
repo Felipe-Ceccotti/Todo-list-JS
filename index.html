@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@6.9.96/css/materialdesignicons.min.css">
+</head>
+
+<body>
+    <header>
+        <div id="logo" ><button id="link-logo" onClick={home}>Felipe Ceccotti</button></div>
+        <div>
+            <ul id="nav-links">
+                <li className="header-links"><a id="link-1" href="http://localhost:3000/">Voltar</a></li>
+            </ul>
+
+        </div>
+
+    </header>
+    <h1>Lista de Tarefas</h1>
+    <div id="container"">
+
+    <input id="tarefa" type="text" placeholder="Digite sua tarefa">
+    <button id="enviar" onclick="addtarefa()">Adicionar </button>
+
+    </div>
+    <main id="lista">
+        
+    </main>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
